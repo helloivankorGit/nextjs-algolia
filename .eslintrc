@@ -1,7 +1,12 @@
 {
-  "extends": ["plugin:@next/next/recommended"],
+  "extends": [
+    "plugin:@next/next/recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
   "rules": {
-    // This rule is not able to find the `pages/` folder in the monorepo.
     "@next/next/no-html-link-for-pages": ["off"],
     "react/react-in-jsx-scope": "off",
     "spaced-comment": ["error", "always", { "markers": ["/"] }]
