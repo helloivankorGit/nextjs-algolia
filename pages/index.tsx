@@ -148,9 +148,7 @@ export default function HomePage({ serverState, url }: HomePageProps) {
 
 function FallbackComponent({ attribute }: { attribute: string }) {
   return (
-    <Panel 
-      header={attribute}
-    >
+    <Panel header={attribute}>
       <RefinementList 
         attribute={attribute}
         showMore={true}
