@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import '../styles/globals.css';
 import 'instantsearch.css/themes/satellite-min.css';
